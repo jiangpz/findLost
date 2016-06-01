@@ -8,13 +8,11 @@ public class creatFileUUID
 {
     public static void main( String[] args )
     {
-        //创建一个FileWriter对象
         FileWriter fw;
         FileWriter fwSub;
 		try {
 			fw = new FileWriter("all.txt");
 			fwSub = new FileWriter("sub.txt");
-	        //遍历clist集合写入到fileName中
 	        Integer i = 1;
 	        String addTmp = "";
 	        while (i < 10000000) {
